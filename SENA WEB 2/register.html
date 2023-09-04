@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register - Motodrive</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main class="register-page">
+      <div class="co-page-register">
+        <header class="header-page">
+          <h2>
+            Registrate y empieza a hacer parte de los servicios que te brindan
+            nuestros conductores
+          </h2>
+        </header>
+        <form class="form">
+          <label for="nombre"></label>
+          <input
+            type="text"
+            id="nombre"
+            name="nombre"
+            required
+            placeholder="Nombre"
+          /><br />
+
+          <label for="nombre"></label>
+          <input
+            type="text"
+            id="nombre"
+            name="nombre"
+            required
+            placeholder="Apellido"
+          /><br />
+
+          <label for="date"></label>
+          <input
+            type="date"
+            id="date"
+            name="nombre"
+            required
+            placeholder="Apellido"
+          /><br />
+
+          <label for="correo"></label>
+          <input
+            type="email"
+            id="correo"
+            name="correo"
+            required
+            placeholder="Correo electronico"
+          /><br />
+
+          <label for="contrasena"></label>
+          <input
+            placeholder="Contraseña"
+            type="password"
+            id="contrasena"
+            name="contrasena"
+            required
+          /><br />
+
+          <label for="confirmar_contrasena"></label>
+          <input
+            placeholder="Confirmar contraseña"
+            type="password"
+            id="confirmar_contrasena"
+            name="confirmar_contrasena"
+            required
+          /><br />
+
+          <input type="submit" value="Registrarse" class="submit-register" />
+          <br />
+          <br />
+          <p class="error">Correo electronico no válido.</p>
+          <div class="txt-form">
+            <p>
+              Al continuar, aceptas recibir llamadas, WhatsApp o SMS de
+              Motodrive y de sus afiliados al número proporcionado, incluso de
+              forma automática. Este sitio cuenta con protección de reCAPTCHA y
+              aplica la Política de privacidad y los Términos del servicio de
+              Google.
+            </p>
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <div class="ops">
+      <h1>Estamos trabajando en la versión mobile, muy pronto.</h1>
+    </div>
+
+    <!--scripts-->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
